@@ -1,7 +1,7 @@
-# R sessionInfo() outputs:
+## R sessionInfo() outputs:
 
-R version 4.0.2 (2020-06-22)
-Platform: x86_64-conda_cos6-linux-gnu (64-bit)
+R version 4.0.2 (2020-06-22)  
+Platform: x86_64-conda_cos6-linux-gnu (64-bit)  
 Running under: Ubuntu 22.04.1 LTS
 
 Matrix products: default
@@ -51,7 +51,6 @@ Matrix products: default
 | vipor_0.4.7 | MASS_7.3-60.0.1 | assertthat_0.2.0 | openssl_2.1.1 | withr_3.0.0 |
 | GenomicAlignments_1.26.0 | Rsamtools_2.6.0 | GenomeInfoDbData_1.2.4 | hms_1.1.3 | grid_4.0.2 |
 | coda_0.19-4 | carData_3.0-5 | bbmle_1.0.25.1 | numDeriv_2016.8-1.1 | shiny_1.8.0 |
-| lubridate_1.9.3 |   |   |   |   |
-
-
-** Gencode v33 **
+| lubridate_1.9.3 |   |   |   |   |  
+  
+### tximeta transcriptome version: Gencode v33
