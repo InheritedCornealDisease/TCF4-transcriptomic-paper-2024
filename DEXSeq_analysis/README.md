@@ -20,6 +20,7 @@ Matrix products: default
 | DEXSeq_1.44.0 | AnnotationDbi_1.60.0 | SummarizedExperiment_1.28.0 | GenomeInfoDb_1.34.4 | S4Vectors_0.36.0 |
 | matrixStats_0.63.0 | BiocGenerics_0.44.0 | data.table_1.14.6 | RColorBrewer_1.1-3 | DESeq2_1.38.1 | 
 | GenomicRanges_1.50.1 | IRanges_2.32.0 | MatrixGenerics_1.10.0 | Biobase_2.58.0 | BiocParallel_1.32.4 |
+| dplyr_1.1.4 | tidyr_1.3.1 | org.Hs.eg.db_3.16.0 |   |   |
 
 ### loaded via a namespace (and not attached):
 |   |   |   |   |   |
