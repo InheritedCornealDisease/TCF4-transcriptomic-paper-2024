@@ -52,3 +52,6 @@ Matrix products: default
 | GenomicAlignments_1.26.0 | Rsamtools_2.6.0 | GenomeInfoDbData_1.2.4 | hms_1.1.3 | grid_4.0.2 |
 | coda_0.19-4 | carData_3.0-5 | bbmle_1.0.25.1 | numDeriv_2016.8-1.1 | shiny_1.8.0 |
 | lubridate_1.9.3 |   |   |   |   |
+
+
+** Gencode v33 **
