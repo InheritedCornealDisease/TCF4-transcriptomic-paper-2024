@@ -1,7 +1,7 @@
-# R sessionInfo() outputs:
+## R sessionInfo() outputs:
 
-R version 4.2.1 (2022-06-23)
-Platform: x86_64-conda-linux-gnu (64-bit)
+R version 4.2.1 (2022-06-23)  
+Platform: x86_64-conda-linux-gnu (64-bit)  
 Running under: Ubuntu 20.04.6 LTS
 
 Matrix products: default
@@ -10,8 +10,8 @@ Matrix products: default
 ### attached base packages:
 |   |   |   |   |   |
 |---|---|---|---|---|
-| grDevices | stats4 | stats | graphics |   |
-| utils | datasets | methods | base |   |
+| grDevices | stats4 | stats | graphics | utils |
+| base | datasets | methods |  |   |
 
 
 ### other attached packages:
@@ -39,6 +39,5 @@ Matrix products: default
 | dplyr_1.0.10 | fastmap_1.1.0 | bit_4.0.5 | utf8_1.2.4 | filelock_1.0.2 |
 | stringi_1.7.12 | parallel_4.2.1 | Rcpp_1.0.12 | vctrs_0.5.1 | geneplotter_1.76.0 |
 | png_0.1-8 | dbplyr_2.2.1 | tidyselect_1.2.0 |   |   |
-
-
-** Gencode v40 **
+  
+### Gencode v40 for generating DEXSeqDataSet 
