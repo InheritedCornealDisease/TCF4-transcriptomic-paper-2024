@@ -12,4 +12,4 @@
 - bcftools/htslib 1.18
 - Fasta for joint genotyping: human_g1k_v37.fasta (Md5 sum: ce84c872fc0072a885926823dcd0338)
 
-[^1] Chen, W., Wang, S., Tithi, S.S. et al. A rare variant analysis framework using public genotype summary counts to prioritize disease-predisposition genes. Nat Commun 13, 2592 (2022). https://doi.org/10.1038/s41467-022-30248-0
+[^1]: Chen, W., Wang, S., Tithi, S.S. et al. A rare variant analysis framework using public genotype summary counts to prioritize disease-predisposition genes. Nat Commun 13, 2592 (2022). https://doi.org/10.1038/s41467-022-30248-0
