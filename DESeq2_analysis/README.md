@@ -1,4 +1,10 @@
-## R sessionInfo() outputs:
+# DESeq2[^1] script for differential gene expression analysis of Control, FECD Exp<sup>+</sup>, and FECD Exp<sup>-</sup> samples  
+- For PWC1 and PW3, we used Control as reference level
+- For PWC2, we used FECD Exp<sup>+</sup> as reference level
+- tximeta transcriptome version: Gencode v33
+<br></br>
+
+## Version information from R sessionInfo():
 
 R version 4.0.2 (2020-06-22)  
 Platform: x86_64-conda_cos6-linux-gnu (64-bit)  
@@ -53,4 +59,6 @@ Matrix products: default
 | coda_0.19-4 | carData_3.0-5 | bbmle_1.0.25.1 | numDeriv_2016.8-1.1 | shiny_1.8.0 |
 | lubridate_1.9.3 |   |   |   |   |  
   
-### tximeta transcriptome version: Gencode v33
+
+
+[^1]: Love, M.I., Huber, W. & Anders, S. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol 15, 550 (2014). https://doi.org/10.1186/s13059-014-0550-8
