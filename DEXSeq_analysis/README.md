@@ -1,4 +1,17 @@
-## R sessionInfo() outputs:
+# DEXSeq[^1] script for differential exon usage analysis of Control, FECD Exp<sup>+</sup>, and FECD Exp<sup>-</sup> samples  
+- E = FECD Exp<sup>+</sup>, NE = FECD Exp<sup>-</sup>, and C = Control
+- covariates are sex and ethnicity
+- One script per comparison:
+  - `EvC_Dexseq.R` FECD Exp<sup>+</sup> compared to Controls
+  - `EvC_Dexseq_no_cov.R` FECD Exp<sup>+</sup> compared to Controls, but without sex & ethnicity as covariates
+  - `EvNE_Dexseq.R` FECD Exp<sup>-</sup> compared to FECD Exp<sup>+</sup>
+  - `EvNEandC_Dexseq.R` FECD Exp<sup>+</sup> compared to both FECD Exp<sup>-</sup> & Controls
+  - `FECDvC_Dexseq.R` All FECD samples (both FECD Exp<sup>+</sup> and FECD Exp<sup>-</sup>) compared to Controls
+  - `NEvC_Dexseq.R` FECD Exp<sup>-</sup> compared to Controls
+- Gencode v40 for generating DEXSeqDataSet 
+<br></br>
+
+## Version information from R sessionInfo():
 
 R version 4.2.1 (2022-06-23)  
 Platform: x86_64-conda-linux-gnu (64-bit)  
@@ -41,4 +54,5 @@ Matrix products: default
 | stringi_1.7.12 | parallel_4.2.1 | Rcpp_1.0.12 | vctrs_0.5.1 | geneplotter_1.76.0 |
 | png_0.1-8 | dbplyr_2.2.1 | tidyselect_1.2.0 |   |   |
   
-### Gencode v40 for generating DEXSeqDataSet 
+
+[^1]: Anders S, Reyes A, Huber W. Detecting differential usage of exons from RNA-seq data. Genome Res. 2012 Oct;22(10):2008-17. doi: 10.1101/gr.133744.111. Epub 2012 Jun 21. PMID: 22722343; PMCID: PMC3460195.
